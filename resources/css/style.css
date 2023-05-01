@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 232, 216);
+    background-color:  #caeed4;
 }
 
 li {
@@ -10,3 +10,63 @@ li {
     width: 500px;
 }
 
+.fit-logo {
+    width: 100px;
+    height: 100%;
+}
+
+img {
+    opacity: 0.70;
+  }
+  
+img:hover {
+    opacity: 1.0;
+  }
+
+
+.navbar-footer {
+    background-color: #bed7e9;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Style the links inside the navigation bar */
+  .navbar-footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* Change the color of links on hover */
+  .navbar-footer a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* Add a color to the active/current link */
+  .navbar-footer a.active {
+    background-color: #7b99b8;
+    color: white;
+  }
+
+
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 5px;
+  }
