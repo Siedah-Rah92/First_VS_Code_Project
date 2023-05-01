@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(236, 232, 216);
+}
+
+li {
+    font-weight: bold;
+}
+
+.fit-picture {
+    width: 500px;
+}
+
